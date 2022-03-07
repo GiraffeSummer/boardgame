@@ -1,0 +1,8 @@
+{
+    "name": "snakes and ladders",
+    "tiles": 99,
+    "players": 2,
+    "actions": 1,
+    "description": "The classic snakes and ladders",
+    "generator": "generator.js"
+}

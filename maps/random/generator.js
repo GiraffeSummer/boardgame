@@ -13,9 +13,9 @@ export function generate(tiles, data, presets) {
         GetRandomPlayer, //get random player, add 'true' as parameter to include self (ex: GetRandomPlayer(true))
         CreateAlert, //create an alert message CreateAlert('message'[,'style']), style can choose of 3 options: primary: blue, secondary: red, tertiary: green
         Effects, //effects, for now only rainbow, add to style of tile
-        filters,// pre made filters if you don't want to use certain tiles
         CreatePopup, //can create a modal popup, has chain functions for extra functions
         gameManager, //global events for example end of game (end game with function: gameManager.end())
+        mapInfo, //Data contained in map.json
     } = data;
 
     //custom own tiles
@@ -87,9 +87,9 @@ function TileSet(data) {
         GetNextPlayer,
         CreateAlert,
         Effects,
-        filters,
         CreatePopup, 
         gameManager,
+        mapInfo
     } = data;
 
 
