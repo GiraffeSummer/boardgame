@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "tiles": 40,
+  "players": 2,
+  "actions": 1,
+  "description": "Test map just to try out some different tiles and their functions",
+  "generator": "generator.js"
+}

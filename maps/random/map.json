@@ -1,0 +1,8 @@
+{
+  "name": "random",
+  "tiles": 40,
+  "players": 4,
+  "actions": 1,
+  "description": "Randomized map, different every time",
+  "generator": "generator.js"
+}
